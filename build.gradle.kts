@@ -56,7 +56,6 @@ tasks {
     patchPluginXml {
         version(version)
         sinceBuild("193")
-        untilBuild("203.*")
     }
 
     publishPlugin {
